@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="270" viewBox="0 0 270 270">
+  <defs>
+    <clipPath id="clip-arrow-on">
+      <rect width="270" height="270"/>
+    </clipPath>
+  </defs>
+  <g id="arrow-on" clip-path="url(#clip-arrow-on)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="131.5" cy="131.5" r="131.5" transform="translate(5 4)" fill="#3e96b0"/>
+    <path id="Path_1" data-name="Path 1" d="M0,0,63.5,71.325,0,146.357" transform="translate(114.5 61.143)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="29"/>
+  </g>
+</svg>

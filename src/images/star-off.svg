@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="99" viewBox="0 0 104 99">
+  <defs>
+    <clipPath id="clip-star-off">
+      <rect width="104" height="99"/>
+    </clipPath>
+  </defs>
+  <g id="star-off" clip-path="url(#clip-star-off)">
+    <rect width="104" height="99" fill="#fff"/>
+    <path id="iconmonstr-star-3" d="M52.024.587l15.9,32.81,36.122,4.99L77.759,63.653l6.416,35.892-32.151-17.2-32.155,17.2L26.29,63.653,0,38.387,36.122,33.4Z" transform="translate(0 -0.72)" fill="none" stroke="#ffec40" stroke-width="5"/>
+  </g>
+</svg>

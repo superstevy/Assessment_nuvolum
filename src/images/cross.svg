@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="270" viewBox="0 0 270 270">
+  <defs>
+    <clipPath id="clip-cross">
+      <rect width="270" height="270"/>
+    </clipPath>
+  </defs>
+  <g id="cross" clip-path="url(#clip-cross)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="131.5" cy="131.5" r="131.5" transform="translate(5 4)" fill="#747474"/>
+    <text id="x" transform="translate(69 204)" fill="#fff" font-size="250" font-family="'\.AppleSystemUIFont'"><tspan x="0" y="0">x</tspan></text>
+  </g>
+</svg>
