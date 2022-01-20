@@ -15,7 +15,7 @@ Check out [LIVE DEMO](https://techis-assess-web-react-nuvo.herokuapp.com/) here!
 1. Git Clone
 
 ```
-git clone git@github.com:https://github.com/Tech-i-s/techis-assess-web-react-nuvo.git
+git clone https://github.com/superstevy/Assessment_nuvolum.git
 ```
 
 
