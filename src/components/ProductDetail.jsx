@@ -3,6 +3,8 @@ import Rating from "./Rating";
 
 const ProductDetail = ({ product, selectedProductId }) => {
   const [productClassName, setProductClassName] = useState("");
+
+  // an item's details will be visible when selected and hidden when another item is selected
   useEffect(() => {
     if (product.id == selectedProductId) {
       setProductClassName("product-detail");
