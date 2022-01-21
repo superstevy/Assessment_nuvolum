@@ -14,34 +14,41 @@ body {
     }
   }
 
+  //////////////////////////////////////////////////////////////// .main /////////////////////
   .main {
     display: flex;
     width: 80%;
     max-width: 750px;
     margin: 100px auto;
 
+    ///////////////////////////////////////// .card-list /////////////////////
     .card-list {
       width: 45%;
       margin-right: 5%;
+      ///////////////////////////////////////// .card /////////////////////
       .card {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 30px;
+        ////////////////////////// .card__image /////////////////////
         &__image {
           width: 30%;
         }
+        ////////////////////////// .card__title /////////////////////
         &__title {
           width: 57%;
           padding: 10px;
           align-items: center;
         }
+        ////////////////////////// .card__arrow /////////////////////
         &__arrow {
           width: 13%;
         }
       }
     }
 
+    ////////////////////////// .product-details /////////////////////////////
     .product-details {
       width: 50%;
       background-color: #fff;
@@ -52,17 +59,20 @@ body {
         display: none;
       }
 
+      ////////////////////////// .product-detail /////////////////////
       .product-detail {
         height: 100%;
         position: relative;
-
+        ///////////// .product-detail__price /////////////////////
         &__price {
           font-size: 30px;
           margin-bottom: 20px;
         }
+        ///////////// .product-detail__description ////////////////
         &__description {
           margin-bottom: 20px;
         }
+        ///////////// .product-detail__rating /////////////////////
         &__rating {
           display: flex;
           align-items: center;
@@ -71,11 +81,13 @@ body {
             width: 15px;
             margin-right: 1px;
           }
+          ///////////// .product-detail__count /////////////////////
           &__count {
             margin-left: 5px;
             font-size: 12px;
           }
         }
+        ///////////// .product-detail__add-card /////////////////////
         &__add-card {
           display: block;
           padding: 12px 20px;
