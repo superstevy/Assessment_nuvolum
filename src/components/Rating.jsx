@@ -3,6 +3,7 @@ import StarOnImage from "../images/star-on.svg";
 import StarOffImage from "../images/star-off.svg";
 
 const Rating = ({ rating }) => {
+  // this function will show the star ratings for each product
   const showStars = (rate) => {
     let output = [];
     for (let i = 1; i <= 5; i++) {
@@ -17,6 +18,7 @@ const Rating = ({ rating }) => {
   return (
     <div className="product-detail__rating">
       {showStars(rating.rate)}
+      {/* total number of ratings */}
       <div className="product-detail__rating__count">({rating.count})</div>
     </div>
   );
